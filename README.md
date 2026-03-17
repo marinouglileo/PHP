@@ -13,13 +13,13 @@ Para ejecutar este proyecto es necesario tener instalado:
 - Navegador web
 
 ## Pasos para su ejecución
-clonar el repositorio:
-'''bash
-git clone https://github.com/marinouglileo/PHP.git
-cd php
-sudo cp -r PHP /var/www/html/
-sudo systemctl start apache2
-http://localhost/PHP/index.php
+-clonar el repositorio:
+-'''bash
+-git clone https://github.com/marinouglileo/PHP.git
+-cd php
+-sudo cp -r PHP /var/www/html/
+-sudo systemctl start apache2
+-http://localhost/PHP/index.php
 
 ## Datos del autor
 nombre: Marino Mendoza
