@@ -8,13 +8,20 @@ El objetivo es aplicar conceptos básicos de programación web como el uso de va
 Para ejecutar este proyecto es necesario tener instalado:
 
 - PHP
-- Apache (u otro servidor web)
+- Apache 2
 - Git
 - Navegador web
 
 ## Pasos para su ejecución
+clonar el repositorio:
+'''bash
+git clone https://github.com/marinouglileo/PHP.git
+cd php
+sudo cp -r PHP /var/www/html/
+sudo systemctl start apache2
+http://localhost/PHP/index.php
 
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/
+## Datos del autor
+nombre: Marino Mendoza
+correo: 26005740@galileo.edu
+carnet: 26005740
